@@ -1,0 +1,140 @@
+<!-- Header -->
+<header class="sticky top-0 z-50 bg-white shadow-md">
+  <div class="max-w-7xl mx-auto px-4 py-4 flex justify-between items-center">
+    <div class="text-2xl font-bold text-red-500 cursor-pointer">Airbnb</div>
+    <div class="hidden md:flex space-x-6 items-center">
+      <a href="#" class="text-gray-700 hover:text-red-500 transition">Places to Stay</a>
+      <a href="#" class="text-gray-700 hover:text-red-500 transition">Experiences</a>
+      <a href="#" class="text-gray-700 hover:text-red-500 transition">Online Experiences</a>
+      <button class="px-4 py-2 border rounded-full hover:shadow-md transition">Sign Up</button>
+      <button class="px-4 py-2 border rounded-full hover:shadow-md transition">Log In</button>
+    </div>
+    <div class="md:hidden">
+      <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-gray-700" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+      </svg>
+    </div>
+  </div>
+</header>
+
+<!-- Hero Section -->
+<section class="relative bg-cover bg-center h-[500px]" style="background-image:url('https://i.ibb.co/2kK1ZcW/airbnb-hero.jpg')">
+  <div class="absolute inset-0 bg-black bg-opacity-40 flex items-center justify-center">
+    <div class="text-center text-white space-y-4 px-4">
+      <h1 class="text-4xl md:text-5xl font-bold">Find Your Next Stay</h1>
+      <p class="text-lg md:text-xl">Discover unique places to stay and experiences around the world</p>
+      
+      <!-- Search Form -->
+      <div class="bg-white rounded-full p-3 mt-6 flex flex-col md:flex-row items-center md:space-x-4 shadow-lg max-w-3xl mx-auto">
+        <input type="text" placeholder="Where are you going?" class="flex-1 px-4 py-2 rounded-full border focus:outline-none focus:ring-2 focus:ring-red-400 mb-2 md:mb-0">
+        <input type="date" class="px-4 py-2 rounded-full border focus:outline-none focus:ring-2 focus:ring-red-400 mb-2 md:mb-0">
+        <input type="date" class="px-4 py-2 rounded-full border focus:outline-none focus:ring-2 focus:ring-red-400 mb-2 md:mb-0">
+        <button class="bg-red-500 text-white px-6 py-2 rounded-full hover:bg-red-600 transition">Search</button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Categories Section -->
+<section class="max-w-7xl mx-auto px-4 py-16">
+  <h2 class="text-3xl font-bold mb-8">Live Anywhere</h2>
+  <div class="flex space-x-6 overflow-x-auto pb-4">
+    <div class="min-w-[250px] bg-gray-100 rounded-xl p-4 hover:scale-105 transform transition cursor-pointer">
+      <img src="https://i.ibb.co/znM4vR0/category1.jpg" alt="Category" class="rounded-xl mb-2 w-full h-40 object-cover">
+      <h3 class="font-semibold text-gray-700">Entire Homes</h3>
+    </div>
+    <div class="min-w-[250px] bg-gray-100 rounded-xl p-4 hover:scale-105 transform transition cursor-pointer">
+      <img src="https://i.ibb.co/JR7FvYc/category2.jpg" alt="Category" class="rounded-xl mb-2 w-full h-40 object-cover">
+      <h3 class="font-semibold text-gray-700">Unique Stays</h3>
+    </div>
+    <div class="min-w-[250px] bg-gray-100 rounded-xl p-4 hover:scale-105 transform transition cursor-pointer">
+      <img src="https://i.ibb.co/r2j2ZzX/category3.jpg" alt="Category" class="rounded-xl mb-2 w-full h-40 object-cover">
+      <h3 class="font-semibold text-gray-700">Experiences</h3>
+    </div>
+    <div class="min-w-[250px] bg-gray-100 rounded-xl p-4 hover:scale-105 transform transition cursor-pointer">
+      <img src="https://i.ibb.co/vZV3T7J/category4.jpg" alt="Category" class="rounded-xl mb-2 w-full h-40 object-cover">
+      <h3 class="font-semibold text-gray-700">Pets Allowed</h3>
+    </div>
+  </div>
+</section>
+
+<!-- Featured Stays Section -->
+<section class="max-w-7xl mx-auto px-4 py-16">
+  <h2 class="text-3xl font-bold mb-8 text-gray-800">Featured Stays</h2>
+  <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+    
+    <!-- Featured Card -->
+    <div class="bg-white rounded-xl shadow-md hover:shadow-xl transition transform hover:-translate-y-1 cursor-pointer">
+      <img src="https://i.ibb.co/3p3XgH9/house1.jpg" alt="Cozy Apartment" class="rounded-t-xl w-full h-48 object-cover">
+      <div class="p-4">
+        <h3 class="font-semibold text-gray-700 mb-1">Cozy Apartment</h3>
+        <p class="text-gray-500 text-sm mb-2">New York, USA</p>
+        <p class="text-gray-900 font-bold">$120/night</p>
+      </div>
+    </div>
+
+    <div class="bg-white rounded-xl shadow-md hover:shadow-xl transition transform hover:-translate-y-1 cursor-pointer">
+      <img src="https://i.ibb.co/2tL0FXy/house2.jpg" alt="Modern Loft" class="rounded-t-xl w-full h-48 object-cover">
+      <div class="p-4">
+        <h3 class="font-semibold text-gray-700 mb-1">Modern Loft</h3>
+        <p class="text-gray-500 text-sm mb-2">San Francisco, USA</p>
+        <p class="text-gray-900 font-bold">$150/night</p>
+      </div>
+    </div>
+
+    <div class="bg-white rounded-xl shadow-md hover:shadow-xl transition transform hover:-translate-y-1 cursor-pointer">
+      <img src="https://i.ibb.co/FnwyKXz/house3.jpg" alt="Beach House" class="rounded-t-xl w-full h-48 object-cover">
+      <div class="p-4">
+        <h3 class="font-semibold text-gray-700 mb-1">Beach House</h3>
+        <p class="text-gray-500 text-sm mb-2">Malibu, USA</p>
+        <p class="text-gray-900 font-bold">$220/night</p>
+      </div>
+    </div>
+
+    <div class="bg-white rounded-xl shadow-md hover:shadow-xl transition transform hover:-translate-y-1 cursor-pointer">
+      <img src="https://i.ibb.co/Tg7Rm6Q/house4.jpg" alt="Mountain Cabin" class="rounded-t-xl w-full h-48 object-cover">
+      <div class="p-4">
+        <h3 class="font-semibold text-gray-700 mb-1">Mountain Cabin</h3>
+        <p class="text-gray-500 text-sm mb-2">Colorado, USA</p>
+        <p class="text-gray-900 font-bold">$180/night</p>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+
+<!-- Footer -->
+<footer class="bg-gray-100 mt-16">
+  <div class="max-w-7xl mx-auto px-4 py-10 grid grid-cols-1 md:grid-cols-4 gap-8">
+    <div>
+      <h3 class="font-bold text-gray-700 mb-4">Airbnb</h3>
+      <p class="text-gray-600">Discover unique stays and experiences all around the world.</p>
+    </div>
+    <div>
+      <h3 class="font-bold text-gray-700 mb-4">Company</h3>
+      <ul class="space-y-2 text-gray-600">
+        <li>About</li>
+        <li>Careers</li>
+        <li>Press</li>
+      </ul>
+    </div>
+    <div>
+      <h3 class="font-bold text-gray-700 mb-4">Support</h3>
+      <ul class="space-y-2 text-gray-600">
+        <li>Help Center</li>
+        <li>Safety Information</li>
+        <li>Cancellation Options</li>
+      </ul>
+    </div>
+    <div>
+      <h3 class="font-bold text-gray-700 mb-4">Follow Us</h3>
+      <div class="flex space-x-4 text-gray-600">
+        <a href="#">Facebook</a>
+        <a href="#">Instagram</a>
+        <a href="#">Twitter</a>
+      </div>
+    </div>
+  </div>
+  <div class="text-center text-gray-500 py-4 border-t">© 2025 Airbnb Clone. All rights reserved.</div>
+</footer>
